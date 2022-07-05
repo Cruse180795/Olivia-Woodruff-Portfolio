@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Georgia';
+    background-image: url(https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png);
+    
+}
+
+
+
+h1,
+h2,
+h6,
+p,
+ul{
+    margin: 15px 30px;
+}
+
+h1{
+    color: azure;
+}
+
+ul{
+    list-style-type: square;
+}
+
+
+.header{
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 20px;
+}
+
+.header img{
+    margin-top: 20px;
+}
+
+
+.about-me{
+    font-size: 20px;
+    opacity: 50%;
+    
+}
+
+.title{
+    font-weight: bold;
+    margin: 15px 30px;
+    text-decoration: underline;
+}
